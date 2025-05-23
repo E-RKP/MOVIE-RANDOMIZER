@@ -5,4 +5,62 @@
 body{
   padding: 0;
   margin: 0;
+  background-image: url(IMG/IATMEGTLYNCIRP6CCNNVK3K4EQ.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box{
+  height: 90vh;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  text-align: center;
+  gap: 1rem;
+}
+
+.titolo{
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  color: #FFA903;
+  background-color: #0E3FA9;
+  padding: 1rem;
+  border: 5px solid;
+  
+}
+
+#numerone{
+  font-size: 5rem;
+  padding: 1.5rem;
+  color: #FFA903;
+}
+
+.frase{
+  color: rgb(224, 222, 222);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#button{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.25rem;
+  padding: 1rem 1.5rem;
+  border: 5px solid;
+  color: #FFA903;
+  background-color: #0E3FA9;
+  border-radius: 10px;
+}
+
+#button:hover{
+cursor: pointer;
+background-color: #3b5ea8;
+transition: 0.5s;
+}
+
+#button:active{
+  background-color: #0E3FA9;
 }
